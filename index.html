@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div>
+        <h1 class="tetris_heading">Tetris</h1>
+        <p class="score_paragraph">Score: <span id="scoreSpan">0</span></p>
+    </div>
+
+    <canvas id="boardCanvas" width="" height=""></canvas>
+
+    <div class="side_bar"></div>
+
+    <button onclick="location.reload()" id="play_btn">Play</button>
+</div>
+
+<script src="Board.js"></script>
+<script src="Brick.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
